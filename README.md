@@ -1,1 +1,1 @@
-# PyChess
+# simple python chess game
