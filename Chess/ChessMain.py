@@ -6,7 +6,7 @@ It will responsible for handling user input choice and display the moves/GameSta
 import pygame as p
 from PyChess.Chess import ChessEngine
 
-WIDTH = HEIGHT = 512    # max hi res
+WIDTH = HEIGHT = 512    # max hi-res
 DIMENSION = 8   # size of chessboard 8x8
 SQ_SIZE = HEIGHT // DIMENSION   # square size and 512 iz power of 2 -- 2^9
 MAX_FPS = 144   # for animation smoothness, based on my monitor i am choosing 144fps/144hz
