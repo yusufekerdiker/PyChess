@@ -1,2 +1,2 @@
-<h3>simple python chess game</h3>
+<h2>simple python chess game</h2>
 <p><strong>w.i.p.</strong></p>
