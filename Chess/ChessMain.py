@@ -29,7 +29,6 @@ def loadImages():
 """
 here is main drive for the code. this will handle user input and updating graphics
 """
-
 def main():
 
     p.init()
