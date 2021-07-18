@@ -78,13 +78,13 @@ def main():
                     # player picked second square engine move the piece
                     move = ChessEngine.Move(playerClicks[0], playerClicks[1], gs.board)
                     print(move.getChessNotation())
-                    gs.makeMove(move)
-                    sqSelected = ()
                     if move in validMoves:
                         gs.makeMove(move)
                         moveMade = True
-                    sqSelected = ()  # reset user clicks
-                    playerClicks = []
+                        sqSelected = ()  # reset user clicks
+                        playerClicks = []
+                    else:
+                        playerClicks = [sqSelected]
 
             # key handler section
             elif e.type == p.KEYDOWN:
